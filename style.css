@@ -1,0 +1,47 @@
+/* style.css - 打印优化视觉样式 */
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    background: #fefefe;
+    color: #333;
+    padding: 20px;
+    font-size: 18px;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h1, h2, h3 {
+    color: #42b983;
+    font-weight: bold;
+  }
+  
+  ul {
+    margin-left: 1.5rem;
+  }
+  
+  code {
+    background: #f3f3f3;
+    padding: 2px 5px;
+    border-radius: 4px;
+  }
+  
+  @media print {
+    body {
+      font-size: 16pt;
+    }
+    a[href]:after {
+      content: "" !important;
+    }
+    .sidebar, .app-nav {
+      display: none !important;
+    }
+    #app {
+      padding: 0;
+    }
+    section {
+      page-break-inside: avoid;
+    }
+  }
+  
