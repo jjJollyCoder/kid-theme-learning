@@ -1,78 +1,18 @@
-<!-- index.html for kid-wall using Docsify -->
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>KID WALL - Early Learning Cards</title>
+  <meta charset="UTF-8" />
+  <title>KID WALL</title>
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css" />
-  <link rel="stylesheet" href="style.css">
-
-  <style>
-    body.print-mode aside.sidebar {
-      display: none !important;
-    }
-
-    body.print-mode div.main {
-      margin-left: 0 !important;
-      width: 100% !important;
-      max-width: none !important;
-    }
-
-    @media print {
-      #printModeBtn {
-        display: none !important;
-      }
-    }
-  </style>
 </head>
-
 <body>
-  <button id="printModeBtn"
-    style="position: fixed; top: 10px; right: 10px; z-index: 999; padding: 6px 12px; background: #f56c6c; color: white; border: none; border-radius: 4px; cursor: pointer;">
-    🖨️ 打印视图
-  </button>
-
   <div id="app"></div>
-
   <script>
-    function applyPrintStyle() {
-      const main = document.querySelector('div.main');
-      if (!main) return;
-
-      if (document.body.classList.contains('print-mode')) {
-        main.style.marginLeft = '0';
-        main.style.width = '100%';
-        main.style.maxWidth = 'none';
-      } else {
-        main.style.marginLeft = '';
-        main.style.width = '';
-        main.style.maxWidth = '';
-      }
-    }
-
     window.$docsify = {
-      name: 'KID WALL',
-      repo: '',
-      basePath: '/kid-wall',
       loadSidebar: true,
-      loadNavbar: false,
-      subMaxLevel: 2,
-      themeColor: '#42b983',
-      doneEach() {
-        const btn = document.getElementById('printModeBtn');
-        if (!btn.dataset.bound) {
-          btn.onclick = () => {
-            document.body.classList.toggle('print-mode');
-            applyPrintStyle();
-          };
-          btn.dataset.bound = 'true';
-        }
-        applyPrintStyle();
-      }
+      loadNavbar: false
     };
   </script>
-
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
 </body>
 </html>
