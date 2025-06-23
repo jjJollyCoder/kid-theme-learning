@@ -1,38 +1,42 @@
-# 🍎 Week 02 - Fruits
+# 🍎 Week02: Fruits / 水果
 
-### 🎯 Target Sentence
-**I like [fruit].**  
-**I can see [fruit].**
+## 🌟 Sentence Pattern / 句型模式
 
----
-
-### 🍓 Fruits to Learn
-- apple
-- banana
-- pear
-- watermelon
-- grape
+**I like [fruit]. / 我喜欢[fruit]。**
 
 ---
 
-### 🗣 Practice Time
-- Show a fruit flashcard: **I like apple.**
-- Look at breakfast: **I can see banana.**
-- Ask: "Do you like watermelon?"
+## 📚 Vocabulary / 单词列表
+
+- apple - 苹果  
+- banana - 香蕉  
+- orange - 橙子  
+- grape - 葡萄  
+- watermelon - 西瓜  
+- strawberry - 草莓
+- pear - 梨
+- peach - 桃子
+- lemon - 柠檬
+- cherry - 樱桃
 
 ---
 
-### 🎲 Mini Games
-- Fruit Basket: Match flashcards to real fruits
-- Fruit Tasting: Taste and say what you like
-- Draw a Fruit Face: Use cut-out fruit shapes to make a face
+## 📝 Example Sentences / 示例句子
+
+- I like apple（苹果）。  
+- I like banana（香蕉）。  
+- I like orange（橙子）。  
 
 ---
 
-### 🔊 Listening Ideas
-- Play "Fruit Song" from Super Simple Songs / Pinkfong
+## 🎲 Game Idea / 游戏互动
+
+- 图片配对游戏：把水果词汇与实物或图片配对。  
+- 指一指说出来：孩子指着水果说出单词。  
+- 水果拼盘游戏：把水果按颜色或形状分类。  
 
 ---
 
-### 🖨 Card Tip
-图片 + 英文单词即可；孩子熟悉后可以自己来指读
+## 🎵 Song Suggestion / 推荐儿歌
+
+- 推荐：YouTube / Spotify 搜索“Fruits Song”或“水果儿歌”。  

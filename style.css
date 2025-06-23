@@ -1,6 +1,6 @@
 /* style.css - 打印优化视觉样式 */
 
-body {
+/* body {
     font-family: "Comic Sans MS", sans-serif;
     background: #fefefe;
     color: #333;
@@ -43,5 +43,30 @@ body {
     section {
       page-break-inside: avoid;
     }
-  }
+  } */
   
+  @media print {
+    .sidebar, nav, #sidebar {
+      display: none !important;
+    }
+    .content {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+  }
+
+  body.print-mode aside.sidebar {
+    display: none !important;
+  }
+
+  body.print-mode div.main {
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  @media print {
+    #printModeBtn {
+      display: none !important;
+    }
+  }

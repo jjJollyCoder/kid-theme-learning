@@ -13,6 +13,11 @@
 - sister - 姐姐  
 - brother - 哥哥  
 - grandpa - 爷爷  
+- grandma - 奶奶
+- uncle - 叔叔
+- aunt - 阿姨
+- cousin - 表弟/表妹
+- baby - 宝宝
 
 ---
 

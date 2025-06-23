@@ -14,4 +14,4 @@ RUN npm install -g docsify-cli
 EXPOSE 3000
 
 # 6. 启动 docsify 服务（绑定所有地址）
-CMD ["docsify", "serve", ".", "--port", "3000", "--open", "false"]
+CMD ["docsify", "serve", ".", "--port", "3000", "--no-open"]
